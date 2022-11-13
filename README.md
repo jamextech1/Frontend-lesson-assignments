@@ -1,2 +1,3 @@
-# Frontend-lesson-assignments
-For all my frontend lesson projects 
+### Frontend-lesson-assignments
+
+### For all my frontend lesson projects
