@@ -1,0 +1,77 @@
+/* GENERAL STYLES */
+:root {
+  --main-color: rgb(43, 183, 218);
+  --light-color: #fff;
+  --dark-color: #343a40;
+  --minor-color: rgb(49, 211, 92);
+  --dark-blue: rgb(45, 49, 77);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+}
+/* END GENERAL STYLES */
+/* HEADER STYLES */
+/*  */
+/* NAV STYLES */
+nav {
+  margin: 0 auto;
+  background-color: rgb(250, 248, 248);
+  padding: 2rem 0;
+}
+.nav-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.8rem 1.5rem;
+}
+.btn {
+  background: linear-gradient(
+    240deg,
+    var(--main-color),
+    var(--main-color),
+    var(--minor-color)
+  );
+  border-radius: 10rem;
+  color: var(--light-color);
+  padding: 1.2rem 1.6rem !important;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.8rem 1.2rem;
+}
+/* END NAV STYLES */
+/*  */
+/* END HEADER STYLES */
