@@ -28,6 +28,7 @@ img {
   width: 90%;
   margin: 0 auto;
 }
+
 /* END GENERAL STYLES */
 /* HEADER STYLES */
 header {
@@ -113,6 +114,7 @@ nav a {
 }
 .hero-btn {
   justify-self: start;
+  position: relative;
 }
 .menu-col-2 {
   position: relative;
@@ -263,6 +265,7 @@ nav a {
   gap: 2.4rem;
 }
 .footer-btn {
+  position: relative;
   align-self: end;
 }
 .footer-first-paragraph {
