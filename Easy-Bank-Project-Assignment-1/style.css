@@ -19,7 +19,6 @@ html {
 }
 body {
   font-size: 1.6rem;
-  margin-bottom: 10rem;
   color: var(--dark-blue);
 }
 img {
@@ -176,6 +175,9 @@ nav a {
 }
 /* END FEATURES SECTION */
 /* BLOG ARTICLE SECTION STYLES */
+.blog-section {
+  margin-bottom: 12rem;
+}
 .blog-h1 {
   font-size: 4.4rem;
   font-weight: 500;
@@ -209,3 +211,49 @@ nav a {
   opacity: 0.65;
 }
 /* END BLOG ARTICLE SECTION STYLES */
+/* FOOTER SECTION STYLES */
+.footer-section {
+  width: 100%;
+  background-color: var(--dark-blue);
+  padding: 5rem 0;
+  color: var(--light-two);
+}
+.footer-section-wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.footer-logo-img {
+  width: 19rem;
+}
+.logo-Icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.icons {
+  display: flex;
+  gap: 1.2rem;
+}
+.footer-icons {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.footer-navs {
+  display: flex;
+  gap: 8rem;
+}
+.first-nav a,
+.second-nav a {
+  text-decoration: none;
+  color: #f1efef;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+/* END FOOTER SECTION STYLES */
