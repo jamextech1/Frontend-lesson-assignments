@@ -54,9 +54,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
   /* FOOTER SECTION */
-  .footer-section {
-    /* text-align: center; */
-  }
   .footer-section-wrap {
     grid-template-columns: 1fr;
     row-gap: 4rem;
