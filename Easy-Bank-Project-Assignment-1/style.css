@@ -2,6 +2,7 @@
 :root {
   --main-color: rgb(43, 183, 218);
   --light-color: #fff;
+  --light-two: #f1efef;
   --dark-color: #343a40;
   --minor-color: rgb(49, 211, 92);
   --dark-blue: rgb(45, 49, 77);
@@ -18,18 +19,28 @@ html {
 }
 body {
   font-size: 1.6rem;
+  margin-bottom: 10rem;
+  color: var(--dark-blue);
+}
+.section {
+  width: 90%;
+  margin: 0 auto;
 }
 /* END GENERAL STYLES */
 /* HEADER STYLES */
+header {
+  background-color: var(--light-two);
+}
 /*  */
 /* NAV STYLES */
 nav {
   margin: 0 auto;
-  background-color: rgb(250, 248, 248);
+  background-color: var(--light-color);
   padding: 2rem 0;
+  margin-bottom: 5rem;
 }
 .nav-content {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -53,6 +64,8 @@ nav {
   padding: 0.8rem 1.5rem;
 }
 .btn {
+  display: inline-block;
+  text-decoration: none;
   background: linear-gradient(
     240deg,
     var(--main-color),
@@ -72,6 +85,88 @@ nav a {
   font-weight: 500;
   padding: 0.8rem 1.2rem;
 }
+
 /* END NAV STYLES */
 /*  */
+/* HERO SECTION STYLES */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15%;
+}
+.menu-col-1 {
+  display: grid;
+  gap: 3rem;
+}
+.menu-h1 {
+  font-size: 5.5rem;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+.menu-first-paragraph {
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  color: var(--dark-blue);
+}
+.hero-btn {
+  justify-self: start;
+}
+.menu-col-2 {
+  position: relative;
+  width: 49rem;
+}
+.menu-col-2::after {
+  content: "";
+  background-image: url("images/bg-intro-desktop.svg");
+  height: 100vh;
+  width: 30rem;
+  position: absolute;
+}
+/* END HERO SECTION STYLES */
+/*  */
 /* END HEADER STYLES */
+/* FEATURES SECTION */
+.features-section {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(45, 49, 77, 0.123);
+  padding: 12rem 0;
+}
+.features-section-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.features-section-h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--dark-blue);
+}
+.features-section-first-paragraph {
+  font-size: 1.9rem;
+  margin-bottom: 10rem;
+  color: var(--dark-blue);
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  justify-items: center;
+}
+.card--icon {
+  margin-bottom: 2.5rem;
+}
+.features-section-h2 {
+  margin-bottom: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+.features-section-second-paragraph {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--dark-blue);
+  opacity: 0.9;
+}
+/* END FEATURES SECTION */
