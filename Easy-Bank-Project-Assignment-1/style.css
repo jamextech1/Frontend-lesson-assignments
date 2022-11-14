@@ -52,6 +52,7 @@ nav {
 .nav-logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .nav-links {
   display: flex;
@@ -88,7 +89,11 @@ nav a {
   font-weight: 500;
   padding: 0.8rem 1.2rem;
 }
-
+.hamburger {
+  width: 4.8rem;
+  display: none;
+  cursor: pointer;
+}
 /* END NAV STYLES */
 /*  */
 /* HERO SECTION STYLES */
