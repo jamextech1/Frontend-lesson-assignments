@@ -1,0 +1,26 @@
+@media screen and (max-width: 1149px) {
+  html {
+    font-size: 51.8%;
+  }
+}
+/*  */
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 48.9%;
+  }
+}
+/*  */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45.9%;
+  }
+}
+/*  */
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45.9%;
+  }
+}
+/* LAST MOBILE */
+@media screen and (max-width: 375px) {
+}
