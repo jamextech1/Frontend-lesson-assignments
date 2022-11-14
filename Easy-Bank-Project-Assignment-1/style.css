@@ -256,4 +256,16 @@ nav a {
   display: flex;
   flex-direction: column;
 }
+.btnCopyright {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-btn {
+  align-self: end;
+}
+.footer-first-paragraph {
+  opacity: 0.4;
+}
 /* END FOOTER SECTION STYLES */
