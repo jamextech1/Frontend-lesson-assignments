@@ -22,6 +22,9 @@ body {
   margin-bottom: 10rem;
   color: var(--dark-blue);
 }
+img {
+  width: 100%;
+}
 .section {
   width: 90%;
   margin: 0 auto;
@@ -132,6 +135,7 @@ nav a {
   margin: 0 auto;
   background-color: rgba(45, 49, 77, 0.123);
   padding: 12rem 0;
+  margin-bottom: 12rem;
 }
 .features-section-wrap {
   width: 90%;
@@ -156,6 +160,7 @@ nav a {
 }
 .card--icon {
   margin-bottom: 2.5rem;
+  width: 7.2rem;
 }
 .features-section-h2 {
   margin-bottom: 2.5rem;
@@ -170,3 +175,37 @@ nav a {
   opacity: 0.9;
 }
 /* END FEATURES SECTION */
+/* BLOG ARTICLE SECTION STYLES */
+.blog-h1 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+.blog--one {
+  box-shadow: 0 0.4rem 0.8rem rgba(45, 49, 77, 0.123);
+}
+.blog-img {
+  border-radius: 0.8rem 0.8rem 0 0;
+  margin-bottom: 3rem;
+}
+.blog-context {
+  padding: 1rem 3rem 2rem 1.8rem;
+}
+.blog-first-paragraph {
+  opacity: 0.6;
+  margin-bottom: 1.2rem;
+}
+.blog-second-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.blog-third-paragraph {
+  opacity: 0.65;
+}
+/* END BLOG ARTICLE SECTION STYLES */
