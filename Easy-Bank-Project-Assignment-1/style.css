@@ -94,6 +94,11 @@ nav a {
   display: none;
   cursor: pointer;
 }
+.hamburger-active {
+  width: 3.5rem;
+  display: none;
+}
+
 /* END NAV STYLES */
 /*  */
 /* HERO SECTION STYLES */
@@ -246,6 +251,7 @@ nav a {
 .icons {
   display: flex;
   gap: 1.2rem;
+  cursor: pointer;
 }
 .footer-icons {
   height: 2.4rem;
